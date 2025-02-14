@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine Memories</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: linear-gradient(135deg, #ff758c, #ff7eb3);
+            color: #fff;
+            overflow-x: hidden;
+        }
+        h1 {
+            font-size: 3rem;
+            padding: 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        figure {
+            text-align: center;
+            max-width: 250px;
+        }
+        .gallery img {
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 15px;
+            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+            box-shadow: 8px 8px 30px rgba(0, 0, 0, 0.3);
+        }
+        figcaption {
+            margin-top: 8px;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        .btn {
+            background: #ff3366;
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            border-radius: 50px;
+            margin-top: 20px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .btn:hover {
+            background: #ff1c1f;
+            transform: scale(1.1);
+            box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <h1>The Most Beautiful Person I Have Ever Seen</h1>
+    <h1>🫶🫶🫶🤍🤍🤍</h1>
+    <div class="gallery">
+        <figure>
+            <img src="./img/WhatsApp Image 2025-02-14 at 15.15.03.jpeg" alt="Valentine Image">
+            <figcaption>My favorite smile ❤️</figcaption>
+        </figure>
+        <figure>
+            <img src="./img/WhatsApp Image 2025-02-14 at 15.15.04 (1).jpeg" alt="Valentine Image">
+            <figcaption>Beautiful as always 💖</figcaption>
+        </figure>
+        <figure>
+            <img src="./img/WhatsApp Image 2025-02-14 at 15.15.04 (2).jpeg" alt="Valentine Image">
+            <figcaption>My sunshine ☀️</figcaption>
+        </figure>
+        <figure>
+            <img src="./img/WhatsApp Image 2025-02-14 at 15.15.04.jpeg" alt="Valentine Image">
+            <figcaption>So adorable 🥰</figcaption>
+        </figure>
+        <figure>
+            <img src="./img/WhatsApp Image 2025-02-14 at 15.15.05 (1).jpeg" alt="Valentine Image">
+            <figcaption>Cutest person ever 😍</figcaption>
+        </figure>
+        <figure>
+            <img src="./img/WhatsApp Image 2025-02-14 at 15.15.05.jpeg" alt="Valentine Image">
+            <figcaption>My forever love 💕</figcaption>
+        </figure>
+    </div>
+    <button class="btn" onclick="window.location.href='valentine.html'">Back to Home</button>
+</body>
+</html>
